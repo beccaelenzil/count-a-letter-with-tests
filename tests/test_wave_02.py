@@ -1,3 +1,6 @@
+import pytest
+from count.count import count_a_letter
+
 def test_string_with_no_matches_returns_0():
     test_sentence = "hello world"
     test_letter = "q"
